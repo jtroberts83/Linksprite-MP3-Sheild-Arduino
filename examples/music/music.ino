@@ -44,9 +44,9 @@ void loop()
         Record();
    }
 #endif
-
+  Mp3SetVolume(0,0);
    Play();
-
+    
    while(1);
   
 }
